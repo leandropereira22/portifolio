@@ -44,6 +44,35 @@
             <p>Meu primeiro site</p>
         </article>
     </section>
+    <section id="Habilidades">
+        <h2>Habilidades e tecnologias</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tecnologias</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <th>Iniciante</th>
+                    <th>Capaz de construir estrututas de páginas web semânticas e responsivas.</th>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <th>Intermediário</th>
+                    <th>Experiencia com flexbox, grid e animações CSS.</th>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <th>Básico</th>
+                    <th>Desenvolvimento de scripts do lado do cliente para interações.</th>
+                </tr>
+            </tbody>
+        </table>
+    </section>
     <footer>
         <p>Diteiros reservados</p>
         <section id="contato">
@@ -55,9 +84,9 @@
             </address>
             <form>
                 <label for="nome">Nome: </label>
-                <input type="text" id="nome" name="nome"><br>
+                <input type="text" id="nome" name="nome" required><br>
                 <label for="email">E-mail: </label>
-                <input type="text" id="email" name="email"><br>
+                <input type="text" id="email" name="email" required><br>
                 <label for="telefone">Telefone: </label>
                 <input type="tel" id="relefone" name="telefone"><br>
                 <label for="assunto">Assunto: </label>
@@ -67,7 +96,7 @@
                     <option value="outro">Outro</option>
                 </select><br>
                 <label for="mensagem">Mensagem: </label>
-                <textarea name="mensagem" id="mensagem" cols="20" rows="5"></textarea><br>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea><br>
                 <input type="checkbox" id="inscricao" name="inscricao">
                 <label for="inscricao">Deseja receber minha newsletter: Fique por dentro</label><br>
                 <input type="submit" value="Enviar mensagem">
